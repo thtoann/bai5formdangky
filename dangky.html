@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Đăng ký tài khoản</title>
+</head>
+
+ <!--dang ky-->
+
+<body>
+    <div class="h1 pb-2 mb-4 text-danger border-bottom border-danger">
+    <h1 class="text-center">Đăng ký tài khoản</h1>
+</div>
+    <div class="m-5 border border border-success p-5">  
+    
+    <form action="" method="get">
+       
+        <label  class="form-label" for="hoten">Họ và Tên</label>   
+        <input placeholder="Vui lòng nhập đầy đủ" class="form-control" required type="text" name="hoten" id="hoten">
+    
+        <label class="form-label" for="Username">Tên tài khoản :</label>
+        <input placeholder="Username" class="form-control" type="text" required type="text" name="Username" id="Username">
+
+        <label class="form-label" for="password">Mật khẩu :</label>
+        <input placeholder="Password" class="form-control" type="password" name="password" id="password" required type="password">
+
+        <label class="form-label" for="mail">Email</label>
+        <input class="form-control" type="mail" required type="email" placeholder="example@gmail.com" name="mail" id="mail">
+
+        <label class="form-label" for="diachi">Địa chỉ</label>
+        <input class="form-control" placeholder="Không bắt buộc" type="text" name="diachia" id="diachi">
+
+        
+        <label class="form-label" for="chon">Giới tính</label>
+        <select class="form-select" name="chon" id="chon">
+            <option value="nam">Nam</option>
+            <option value="nu">Nữ</option>
+            <option value="khac">Khác</option>
+
+        </select>
+
+        <label class="form-label" for="">Ngày sinh</label>
+        <input placeholder="Ex: 01/01/1991" type="datetime" required type="datetime" class="form-control" name="ngaysinh" id="ngaysinh"> <br>
+
+        <button  class = "btn btn-primary " class="text-center" type="submit">Đăng ký</button>
+</form>
+<p>Bạn đã có tài khoản? <a href="#">Đăng nhập</a></p>
+</div> 
+
+
+
+</body>
+</html>
